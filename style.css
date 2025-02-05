@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    background: #26fdf2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.FirstPart{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.foto-img{
+    width: 82px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 86px;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.descripcion{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.card{
+    background: white;
+    color: black;
+    margin: 15px auto;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: black;
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.card:hover{
+    background: #f1f1f1;
+}
+.imagenes{
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+
+}
+.face , .correo, .insta{
+    height: 30px;
+    display: flex;
+    width: 30px;
+    margin: 0 10px;
+}
